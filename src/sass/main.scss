@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+$default-color: #111;
+$primary-color: #3caa96;
+$secondary-color: #aaa;
+
+@media print {
+  a,
+  .nav {
+    display: none;
+  }
+}
+
+body {
+  margin: 0;
+  background: $primary-color;
+
+  #app {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: white;
+    color: $default-color;
+    width: 100%;
+    text-align: justify;
+
+    header {
+      padding: 2em;
+      margin: 0;
+      color: white;
+      background-color: $primary-color;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0 0 0.25em 0;
+    }
+
+    footer {
+      background-color: $primary-color;
+      padding: 2em;
+      text-align: center;
+
+      .router-link {
+        color: white;
+      }
+    }
+
+    #content {
+      width: 50%;
+      margin: auto;
+      padding: 0 1em;
+
+      @media print, (max-width: 960px) {
+        width: auto;
+      }
+
+      hr {
+        border: none;
+        border-top: 1px solid $primary-color;
+      }
+
+      h2,
+      h3 {
+        margin-bottom: 0;
+      }
+
+      h4 {
+        margin-top: 0;
+      }
+
+      h2,
+      .svg-inline--fa {
+        color: $primary-color;
+      }
+
+      .secondary {
+        color: $secondary-color;
+        font-size: small;
+      }
+
+      .standout {
+        color: $primary-color;
+        font-weight: bold;
+      }
+
+      .job,
+      .pad {
+        padding: 0 1em;
+      }
+
+      table {
+        width: 100%;
+        padding: 0 1em;
+
+        td:last-child {
+          text-align: right;
+        }
+      }
+    }
+  }
+}
