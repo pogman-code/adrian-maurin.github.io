@@ -2,7 +2,7 @@
   <div>
     <Jobs />
     <Degrees />
-    <Skills />
+    <Skills class="newpage" />
     <Hobbies />
   </div>
 </template>

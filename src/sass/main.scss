@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
 
 $default-color: #111;
 $primary-color: #3caa96;
@@ -9,6 +9,14 @@ $secondary-color: #aaa;
   .nav {
     display: none;
   }
+
+  body {
+    background: none;
+  }
+
+  .newpage {
+    page-break-before: always;
+  }
 }
 
 body {
@@ -16,7 +24,7 @@ body {
   background: $primary-color;
 
   #app {
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background-color: white;
     color: $default-color;
     width: 100%;
