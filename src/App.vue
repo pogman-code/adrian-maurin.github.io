@@ -7,9 +7,11 @@
           ><fa :icon="['fab', 'linkedin']"></fa> LinkedIn</a
         >
         |
-        <a href="https://github.com/users/adrian-maurin"
+        <a href="https://github.com/adrian-maurin/adrian-maurin.github.io"
           ><fa :icon="['fab', 'github']"></fa> GitHub</a
         >
+        |
+        <a href="javascript:window.print()"><fa icon="print"></fa> Imprimer</a>
       </div>
     </header>
     <router-view id="content" />
