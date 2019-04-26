@@ -8,10 +8,10 @@
 </template>
 
 <script>
-import sub from './sub'
+import components from '@/components'
 
 export default {
   name: 'Home',
-  components: sub
+  components: components
 }
 </script>
