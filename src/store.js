@@ -7,7 +7,7 @@ export default new Vuex.Store({
   state: {
     jobs: [
       {
-        title: 'Développeur Système d’Information',
+        title: 'Lead Developer',
         date: 'Depuis Mai 2016',
         place:
           'Jaguar Network <span class="secondary">- Marseille, FRANCE</span>',
