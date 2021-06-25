@@ -65,10 +65,10 @@ export default new Vuex.Store({
             lvl: 4.5
           },
           { title: 'PHP', frameworks: ['Kohana', 'Twig'], lvl: 4.0 },
+          { title: 'Perl', lvl: 3.5 },
           { title: 'CSS', frameworks: ['+préprocesseurs'], lvl: 3.5 },
           { title: 'SQL', frameworks: ['PostgreSQL'], lvl: 3.5 },
-          { title: 'Java', frameworks: ['Android'], lvl: 3.0 },
-          { title: 'Perl', lvl: 3.0 }
+          { title: 'Java', frameworks: ['Android'], lvl: 3.0 }
         ]
       },
       {
